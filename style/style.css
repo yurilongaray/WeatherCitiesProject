@@ -1,0 +1,19 @@
+.container {
+    margin-top: 20px;
+}
+
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+svg {
+    height: 150px;
+    width: 100%;
+}
+
+td:first-of-type, td:first-of-type > div {
+    border-radius: 10px;
+    height: 200px;
+    width: 250px;
+}
